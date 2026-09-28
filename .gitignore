@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+**/node_modules/
+api/dist/
+web/.next/
+web/out/
+web/build/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+api/.env
+api/.env.*
+!api/.env.example
+web/.env.local
+
+# Generated Prisma client and local tooling
+api/src/generated/prisma/
+api/.agents/
+api/.claude/
+api/.windsurf/
+api/skills-lock.json
+*.tsbuildinfo
+.DS_Store
